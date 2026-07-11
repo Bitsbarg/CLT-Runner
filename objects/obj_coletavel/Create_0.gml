@@ -1,0 +1,1 @@
+vel = global.velocidade;
