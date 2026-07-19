@@ -6,7 +6,7 @@ if (global.pontos > global.max_pontos) {
 	global.max_pontos = global.pontos;
 }
 
-if (global.max_pontos % 5 == 0 and global.max_pontos > 0) {
+if (global.max_pontos % 20 == 0 and global.max_pontos > 0) {
 	
         if (global.max_pontos != ultimo_som_tocado) {
         audio_play_sound(choose(_som1, _som2), 1, false);
